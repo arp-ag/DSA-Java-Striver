@@ -1,13 +1,20 @@
-## Striver DSA Sheet in Java
+# 💻 Striver DSA Sheet – Java Solutions
 
-Solving DSA daily using Striver's SDE Sheet.
+Solving Striver’s SDE Sheet in Java. Clean folder structure, readable code, and progress tracking.  
+Each problem has its own file and is listed topic-wise.
 
-### Progress:
-- ✅ Day 1: 4 questions done on array. Learnt a few new approaches, fun start! 
+## 📚 Sheet Source  
+[Striver’s SDE Sheet](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
 
-### Folder Structure:
-- Day1/: Problems from Day 1
-<br>Problem: Check if Array is Sorted and Rotated <br>Link: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
-<br>Problem: Remove duplicates from sorted array <br>Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-<br>Problem: Left rotate an array <br>Link: https://leetcode.com/problems/rotate-array/
-<br>Problem: Move zeros to end <br>Link: https://leetcode.com/problems/move-zeroes/
+## 📈 Progress Tracker
+
+| Topic        | Completed | Total |
+|--------------|-----------|-------|
+| Arrays       | 4         | 7     |
+| Strings      | 0         | 6     |
+| Linked List  | 0         | 10    |
+| Stack/Queue  | 0         | 9     |
+| Trees        | 0         | 15    |
+| ...          | ...       | ...   |
+
+> 📌 Currently working on Arrays – Part 1
