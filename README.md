@@ -10,7 +10,7 @@ Each problem has its own file and is listed topic-wise.
 
 | Topic        | Completed | Total |
 |--------------|-----------|-------|
-| Arrays       | 4         | 7     |
+| Arrays       | 9         | 9     |
 | Strings      | 0         | 6     |
 | Linked List  | 0         | 10    |
 | Stack/Queue  | 0         | 9     |
