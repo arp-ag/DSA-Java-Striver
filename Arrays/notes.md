@@ -40,7 +40,7 @@
   - Init row of size `i+1`, set `row[0] = row[i] = 1`  
   - Loop `j = 1` to `i-1`: fill using formula above
 
-🖼️ ![pascal](11_pascal's_triangle.png)
+🖼️ 
 
 **TC:** O(n²) **SC:** O(n²)
 
