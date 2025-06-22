@@ -23,4 +23,32 @@ class Solution {
     }
 }
 // OPTIMAL: [tc=O(n), sc=O(1)] DUTCH NATIONAL FLAG ALGORITHM.
-// keep track of best sum value. if i>sum, start fresh.
+
+// Dutch national flag algo.
+// shouldn't iterate normally. 
+class Solution {
+    public void sortColors(int[] nums) {
+        int n=nums.length;
+        int low=0, mid=0, high=n-1;
+        if(n<=1) return;
+        while(mid<=high){
+            if(nums[mid]==0){
+                swap(nums, low, mid);
+                low++;
+                mid++;
+            }
+            else if(nums[mid]==1){
+                mid++;
+            }
+            else{
+                swap(nums, mid, high);
+                high--;
+            }
+        }
+    }
+    public void swap(int[] arr, int i, int j){
+        int temp=arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+    }
+}
